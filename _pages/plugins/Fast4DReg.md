@@ -36,6 +36,7 @@ If using multichannel images, the channels need to be split. The drift will be e
 
 ![image](media\Fast4DReg-methodDescription.png)
 
+
 ***Figure 1: Fast4DReg pipeline.*** *Fast4DReg corrects for drift in x-y direction by first creating intensity projections to create 2D videos. Then it estimates the linear x-y drift between two images by calculating their cross-correlation matrix and applying the correction to the stack. To correct the drift in the z-direction Fast4DReg creates frontal intensity and corrects the drift as described above. Lateral and axial drift corrections can also be used independently. Fast4DReg outputs a folder containing the corrected images, drift plots, a drift table and a settings file that can be applied to correct another image with the same settings.*
 
 
@@ -54,9 +55,9 @@ Fast4DReg requires the **NanoJ-Core** plugin and **Bioformats**, which can both 
 - Navigate to *Help -> Update -> Manage update sites*
 - Select NanoJ-Core and Bio-Formats.
 
-![image](images/install-1.png)
+![image](media/Fast4DReg-install-1.png)
 
-![image](images/install-2.png)
+![image](media/Fast4DReg-install-2.png)
 
 - When selected select *Close* and *Apply changes*. 
 - Restart Fiji.
