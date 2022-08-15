@@ -1,3 +1,17 @@
+---
+title: Fast4DReg
+categories: [Registration, Channel alignment]
+
+name: Fast4DReg
+initial-release-date: "2022"
+team-founder: "@guijacquemet"
+team-maintainer: '@jwpylvanainen'
+support-status: Active
+source-label: GitHub
+source-url: https://github.com/guijacquemet/Fast4DReg
+
+---
+
 # Fast4DReg
 
 ![example1](https://user-images.githubusercontent.com/74545655/174895500-48bf89f0-3bbe-4073-9dff-b7da828d78ef.gif)
