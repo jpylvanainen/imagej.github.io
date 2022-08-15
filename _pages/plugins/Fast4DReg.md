@@ -34,7 +34,7 @@ Fast4DReg consists of four scripts.
 
 If using multichannel images, the channels need to be split. The drift will be estimated according to the channel that has more stable structures (for example endothelium instead of migrating cancer cells). The drift correction can then be applied to the second (or more) channels.
 
-![image](media\Fast4DReg-methodDescription.png)
+![image](../../media/Fast4DReg-methodDescription.png)
 
 
 ***Figure 1: Fast4DReg pipeline.*** *Fast4DReg corrects for drift in x-y direction by first creating intensity projections to create 2D videos. Then it estimates the linear x-y drift between two images by calculating their cross-correlation matrix and applying the correction to the stack. To correct the drift in the z-direction Fast4DReg creates frontal intensity and corrects the drift as described above. Lateral and axial drift corrections can also be used independently. Fast4DReg outputs a folder containing the corrected images, drift plots, a drift table and a settings file that can be applied to correct another image with the same settings.*
@@ -55,9 +55,9 @@ Fast4DReg requires the **NanoJ-Core** plugin and **Bioformats**, which can both 
 - Navigate to *Help -> Update -> Manage update sites*
 - Select NanoJ-Core and Bio-Formats.
 
-![image](media/Fast4DReg-install-1.png)
+![image](../../media/Fast4DReg-install-1.png)
 
-![image](media/Fast4DReg-install-2.png)
+![image](../../media/Fast4DReg-install-2.png)
 
 - When selected select *Close* and *Apply changes*. 
 - Restart Fiji.
@@ -74,7 +74,7 @@ Prepare your image to have one channel. If you have multiple channels they can a
 **Running the script**
 1. Open the "estimate-drift" script and click run. The user interface opens.
 
-![image](images/Fast4DregUI.png)
+![image](../../media/Fast4DReg-UI.png)
 
 *Figure 2: Estimate and apply user interface*
 
@@ -119,7 +119,7 @@ the faster scale sample motion, it is better to compare to the previous frame.
 
 1. Open the "apply" script and click run. The user interface opens.  
 
-![image](images/applyUI.png)
+![image](../../media/Fast4DReg-applyUI.png)
 *Figure 3: Apply user interface*
 
 
